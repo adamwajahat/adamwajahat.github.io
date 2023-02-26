@@ -1,11 +1,13 @@
 import './index.scss'
 import MiddleLogo from '../MiddleLogo'
+import ItemCircle from '../ItemCircle'
 
 const Layout = () => {
     return (
-        <>
-            <MiddleLogo />
-        </>
+        <div className="App">
+            <MiddleLogo></MiddleLogo>
+            <ItemCircle></ItemCircle>
+        </div>
     )
 }
 
