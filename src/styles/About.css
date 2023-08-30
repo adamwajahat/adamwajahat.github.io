@@ -1,0 +1,13 @@
+.about{
+    margin: 50px;
+    text-align: center;
+}
+
+.text {
+    display: inline-block;
+    text-align: left;
+}
+
+.italicFont {
+    font-family: "Eb-Garamond";
+}
