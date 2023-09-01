@@ -1,0 +1,19 @@
+.note{
+    width: 100%;
+}
+
+.screen{
+    overflow: auto !important;
+}
+
+.screen::-webkit-scrollbar{
+    display: none;
+}
+
+.button1 {
+    position: absolute;
+    top: 427px;
+    left: 30px;
+    text-decoration: none;
+    color: transparent;
+}

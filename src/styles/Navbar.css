@@ -1,0 +1,48 @@
+.navbar {
+    width: 100%;
+    height: 12em;
+    background: transparent;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.links {
+    align-items: center;
+    color: black;
+    overflow: hidden;
+}
+
+.links a:hover{
+    font-family: 'Eb-Garamond';
+    font-size: 21px;
+}
+
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: -40px;
+    display: block;
+}
+
+.logo::after{
+    clear: both;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar{
+        height: 15em;
+    }
+
+    .topbar {
+        justify-content: center;
+    }
+}
