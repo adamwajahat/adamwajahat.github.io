@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.be3788bf.css",
-    "main.js": "/static/js/main.0433ed50.js",
+    "main.css": "/static/css/main.df5ada49.css",
+    "main.js": "/static/js/main.5ec52cca.js",
     "static/js/787.99fecbfe.chunk.js": "/static/js/787.99fecbfe.chunk.js",
     "static/media/adam_wajahat_logo.mov": "/static/media/adam_wajahat_logo.8735ca0723eccb37ae98.mov",
     "static/media/long_note.png": "/static/media/long_note.665a8be558f1d3a489f0.png",
@@ -9,12 +9,12 @@
     "static/media/EBGaramond-Italic.ttf": "/static/media/EBGaramond-Italic.a498ec9c34e6bbd355e5.ttf",
     "static/media/adam_signature.png": "/static/media/adam_signature.8dd1e2bc22b46fcf297c.png",
     "index.html": "/index.html",
-    "main.be3788bf.css.map": "/static/css/main.be3788bf.css.map",
-    "main.0433ed50.js.map": "/static/js/main.0433ed50.js.map",
+    "main.df5ada49.css.map": "/static/css/main.df5ada49.css.map",
+    "main.5ec52cca.js.map": "/static/js/main.5ec52cca.js.map",
     "787.99fecbfe.chunk.js.map": "/static/js/787.99fecbfe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be3788bf.css",
-    "static/js/main.0433ed50.js"
+    "static/css/main.df5ada49.css",
+    "static/js/main.5ec52cca.js"
   ]
 }
