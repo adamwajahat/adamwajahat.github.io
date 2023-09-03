@@ -23,25 +23,25 @@ function LinkTitles(){
         return (
             <div className="links">
                 <Link to="/" className='activeTab'> Home </Link>
-                <Link to="/work"> Work </Link>
-                <Link to="/about"> About </Link>
+                <Link to="/work" className=''> Work </Link>
+                <Link to="/about"className=''> About </Link>
             </div>
         );
     }
     else if(location.pathname==="/work"){
         return (
             <div className="links">
-                <Link to="/"> Home </Link>
+                <Link to="/" className=''> Home </Link>
                 <Link to="/work" className='activeTab'> Work </Link>
-                <Link to="/about"> About </Link>
+                <Link to="/about" className=''> About </Link>
             </div>
             );
     }
     else if(location.pathname==="/about"){
         return (
             <div className="links">
-                <Link to="/"> Home </Link>
-                <Link to="/work"> Work </Link>
+                <Link to="/" className=''> Home </Link>
+                <Link to="/work" className=''> Work </Link>
                 <Link to="/about" className='activeTab'> About </Link>
             </div>
             );
