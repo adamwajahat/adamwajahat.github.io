@@ -17,15 +17,42 @@ function LogoImg(){
     }
 }
 
+function LinkTitles(){
+    const location = useLocation();
+    if(location.pathname==="/"){
+        return (
+            <div className="links">
+                <Link to="/" className='activeTab'> Home </Link>
+                <Link to="/work"> Work </Link>
+                <Link to="/about"> About </Link>
+            </div>
+        );
+    }
+    else if(location.pathname==="/work"){
+        return (
+            <div className="links">
+                <Link to="/"> Home </Link>
+                <Link to="/work" className='activeTab'> Work </Link>
+                <Link to="/about"> About </Link>
+            </div>
+            );
+    }
+    else if(location.pathname==="/about"){
+        return (
+            <div className="links">
+                <Link to="/"> Home </Link>
+                <Link to="/work"> Work </Link>
+                <Link to="/about" className='activeTab'> About </Link>
+            </div>
+            );
+        }
+}
+
 function Navbar() {
   return (
     <>
     <div className="navbar"> 
-        <div className="links">
-            <Link to="/"> Home </Link>
-            <Link to="/work"> Work </Link>
-            <Link to="/about"> About </Link>
-        </div>
+        <LinkTitles></LinkTitles>
     </div>
     <LogoImg />
     </>
