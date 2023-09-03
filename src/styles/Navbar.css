@@ -3,7 +3,7 @@
     height: 12em;
     background: transparent;
     height: 100%;
-    display: flex;
+    display: inline-block;
     justify-content: right;
 }
 
@@ -16,6 +16,8 @@
     align-items: center;
     color: black;
     overflow: hidden;
+    display: inline;
+    float: right;
 }
 
 .links a:hover{
@@ -34,20 +36,39 @@
 
 .logo {
     margin-left: 20px;
-    margin-top: -40px;
-    display: block;
+}
+
+.logoContainer {
+    float: left;
 }
 
 .logo::after{
     clear: both;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 638px) {
     .navbar{
-        height: 15em;
+        height: 17.5em;
+    }
+    
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
     }
 
-    .topbar {
-        justify-content: center;
+    .logoContainer {
+        float: none;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: block !important;
+    }
+
+    .links{
+        display: inline-block;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
     }
 }

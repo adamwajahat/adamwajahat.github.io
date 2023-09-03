@@ -10,7 +10,7 @@ function LogoImg(){
     }
     else{
         return (
-            <Link to="/">
+            <Link to="/" className='logoContainer'>
                 <img className="logo" src={logo} alt="Adam Wajahat" width="300"></img>
             </Link>
         );
@@ -51,10 +51,11 @@ function LinkTitles(){
 function Navbar() {
   return (
     <>
-    <div className="navbar"> 
-        <LinkTitles></LinkTitles>
-    </div>
-    <LogoImg />
+        <div className="navbar"> 
+            <LogoImg />
+            <LinkTitles></LinkTitles>
+        </div>
+        
     </>
   )
 }
