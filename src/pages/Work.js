@@ -6,7 +6,7 @@ import '../styles/Work.css'
 
 function Work() {
   return (
-    <div>
+    <div className="workDevice">
       <DeviceFrameset device="iPhone X">
         <div>
           <a className="button1" href="/">
