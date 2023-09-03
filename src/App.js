@@ -1,9 +1,9 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import {Helmet } from 'react-helmet'
-import Home from './pages/Home'
-import Work from './pages/Work'
-import About from './pages/About'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {Helmet } from 'react-helmet';
+import Home from './pages/Home';
+import Work from './pages/Work';
+import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
