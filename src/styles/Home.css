@@ -11,3 +11,41 @@ video {
     height: 100%;
     object-fit: contain;
 }
+
+@media only screen and (min-height: 650px){
+    .homeLogo {
+        height: 29em;
+    } 
+}
+
+@media only screen and (min-height: 660px){
+    .homeLogo {
+        height: 30em;
+    } 
+}
+
+
+@media only screen and (min-height: 727px){
+    .homeLogo {
+        height: 35em;
+    } 
+}
+
+
+@media only screen and (min-height: 840px){
+    .homeLogo {
+        height: 41em;
+    } 
+}
+
+@media only screen and (min-height: 850px){
+    .homeLogo {
+        height: 42em;
+    } 
+}
+
+@media only screen and (min-height: 895px){
+    .homeLogo {
+        height: 44em;
+    } 
+}
