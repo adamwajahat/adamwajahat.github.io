@@ -6,6 +6,8 @@ import Work from './pages/Work';
 import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import WorkAll from './pages/WorkAll';
+import WorkDisplay from './pages/WorkDisplay';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/work" element={<Work />} />
+              <Route path="/work/all" element={<WorkAll />} />
+              <Route path="/work/:id" element={<WorkDisplay />} />
               <Route path="/about" element={<About />} />
           </Routes>
         <Footer></Footer>
