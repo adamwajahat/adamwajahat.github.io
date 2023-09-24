@@ -6,9 +6,9 @@ function WorkAll() {
   return (
     <div className="workAll">
         <div className="workList">
-            {WorkList.map((work) => {
+            {Object.keys(WorkList).map((keyName, i) => {
                 return (
-                    <WorkItem id={work.id} title={work.title}/>
+                    <WorkItem id={keyName} title={WorkList[keyName].title}/>
                 );
             })}
         </div>

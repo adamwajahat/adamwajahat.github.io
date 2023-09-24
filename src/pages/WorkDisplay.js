@@ -4,7 +4,7 @@ import { WorkList } from '../helper/WorkList'
 
 function WorkDisplay() {
     const { id } = useParams();
-    const project = WorkList[0]
+    const project = WorkList[id]
     return (
         <div>{project.component()}</div>
     )

@@ -28,7 +28,7 @@ function LinkTitles(){
             </div>
         );
     }
-    else if(location.pathname==="/work"){
+    else if(location.pathname.includes("/work")){
         return (
             <div className="links">
                 <Link to="/" className=''> Home </Link>
