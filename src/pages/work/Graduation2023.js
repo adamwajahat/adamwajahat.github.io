@@ -22,6 +22,6 @@ function Graduation2023() {
   )
 }
 
-export const title = 'Graduation 2023'
+export const title = 'Graduation, 2023'
 
 export default Graduation2023

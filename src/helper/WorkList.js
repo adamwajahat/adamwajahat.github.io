@@ -7,9 +7,5 @@ export const WorkList = {
     "Graduation-2023" : {
         component: Graduation2023,
         title: Graduation2023Title
-    },
-    "The-Black-Box-2023": {
-        component: TheBlackBox2023,
-        title: TheBlackBox2023Title
     }
 };
