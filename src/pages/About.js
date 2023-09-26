@@ -8,7 +8,7 @@ function About() {
           <span className="italicFont">Bismillahir Rahmanir Rahmeen</span>,
           <br></br>
           <br></br>
-          <span className="italicFont">Adam Wajahat</span>, a muslim contemporary artist, computer engineer, and designer, based in Dallas, Texas.
+          <span className="italicFont">Adam Wajahat</span>, a Muslim contemporary artist, computer engineer, and designer, based in Dallas, Texas.
           <br></br> 
           <br></br>
           <a href="mailto:adamwajahat@outlook.com">adamwajahat@outlook.com</a>
