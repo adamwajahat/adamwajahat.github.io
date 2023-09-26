@@ -11,6 +11,8 @@ function About() {
           <span className="italicFont">Adam Wajahat</span>, a muslim contemporary artist, computer engineer, and designer, based in Dallas, Texas.
           <br></br> 
           <br></br>
+          <a href="mailto:adamwajahat@outlook.com">adamwajahat@outlook.com</a>
+          <br></br>
           <a href="https://instagram.com/adamwajahat">https://instagram.com/adamwajahat</a>
       </div>
     </div>
