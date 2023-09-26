@@ -10,7 +10,7 @@
     display: none;
 }
 
-.button1 {
+.workAllLink {
     position: absolute;
     top: 427px;
     left: 30px;
@@ -2364,11 +2364,21 @@
     :root {
         --size-divisor: 1.25;
     }
+
+    .workAllLink {
+      top: 341px;
+      left: 23px;
+    }
   }
 
   @media (min-width: 390px){
     :root {
         --size-divisor: 1.2;
+    }
+
+    .workAllLink {
+      top: 355px;
+      left: 25px;
     }
   }
 
@@ -2376,25 +2386,50 @@
     :root {
         --size-divisor: 1.15;
     }
+
+    .workAllLink {
+      top: 370px;
+      left: 27px;
+    }
   }
 
   @media (min-width: 576px) {
     :root {
       --size-divisor: 0.76;
     }
+
+    .workAllLink {
+      top: 566px;
+      left: 39px;
+    }
   }
   @media (min-width: 768px) {
     :root {
       --size-divisor: 1;
+    }
+
+    .workAllLink {
+      top: 430px;
+      left: 35px;
     }
   }
   @media (min-width: 992px) {
     :root {
       --size-divisor: 0.92;
     }
+
+    .workAllLink {
+      top: 467px;
+      left: 35px;
+    }
   }
   @media (min-width: 1200px) {
     :root {
       --size-divisor: 1.39;
+    }
+
+    .workAllLink {
+      top: 306px;
+      left: 17px;
     }
   }

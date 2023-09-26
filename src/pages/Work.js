@@ -9,7 +9,7 @@ function Work() {
     <div className="workDevice">
       <DeviceFrameset device="iPhone X">
         <div>
-          <a className="button1" href="/work/all">
+          <a className="workAllLink" href="/work/all">
             Test!
           </a>
           <img src={workNote} alt="Loading?" className="note"></img>  
