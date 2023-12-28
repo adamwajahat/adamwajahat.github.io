@@ -1,13 +1,52 @@
-.note{
-    width: 100%;
+.workContainer{
+  width: 100%;
+  position: relative;
+  height: 100%;
 }
 
-.screen{
-    overflow: auto !important;
+.somewhereinGazaNote{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-.screen::-webkit-scrollbar{
+.topBar, .bottomBar {
+  width: 100%;
+}
+
+.topBar {
+  top: 0;
+  z-index: 2;
+  position: absolute;
+  opacity: 98%;
+}
+
+.bottomBar {
+  position: sticky;
+  top: 100%;
+  z-index: 1;
+  opacity: 98%;
+}
+
+.workContainer::-webkit-scrollbar{
     display: none;
+}
+
+.scrollableNote{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.scrollableNote::-webkit-scrollbar{
+  display: none;
+}
+
+.projectLink {
+  color: rgba(255, 255, 255, 0);
 }
 
 .workAllLink {
@@ -2365,6 +2404,14 @@
         --size-divisor: 1.25;
     }
 
+    .projectLink {
+      position: absolute;
+      display: block;
+      top: 23.7%; 
+      font-size: 9.2pt;
+      left: 6.5%;
+    }
+
     .workAllLink {
       top: 341px;
       left: 23px;
@@ -2374,6 +2421,14 @@
   @media (min-width: 390px){
     :root {
         --size-divisor: 1.2;
+    }
+
+    .projectLink {
+      position: absolute;
+      display: block;
+      top: 23.75%; 
+      font-size: 9.6pt;
+      left: 6.5%;
     }
 
     .workAllLink {
@@ -2387,6 +2442,14 @@
         --size-divisor: 1.15;
     }
 
+    .projectLink {
+      position: absolute;
+      display: block;
+      top: 23.75%; 
+      font-size: 10pt;
+      left: 6.5%;
+    }
+
     .workAllLink {
       top: 370px;
       left: 27px;
@@ -2396,6 +2459,14 @@
   @media (min-width: 576px) {
     :root {
       --size-divisor: 0.76;
+    }
+
+    .projectLink {
+      position: absolute;
+      display: block;
+      top: 23.75%; 
+      font-size: 15.1pt;
+      left: 6.5%;
     }
 
     .workAllLink {
@@ -2408,6 +2479,14 @@
       --size-divisor: 1;
     }
 
+    .projectLink {
+      position: absolute;
+      display: block;
+      top: 23.8%; 
+      font-size: 11.5pt;
+      left: 6.5%;
+    }
+
     .workAllLink {
       top: 430px;
       left: 35px;
@@ -2418,6 +2497,14 @@
       --size-divisor: 0.92;
     }
 
+    .projectLink {
+      position: absolute;
+      display: block;
+      top: 23.9%; 
+      font-size: 12.5pt;
+      left: 6.5%;
+    }
+
     .workAllLink {
       top: 467px;
       left: 35px;
@@ -2426,6 +2513,14 @@
   @media (min-width: 1200px) {
     :root {
       --size-divisor: 1.39;
+    }
+
+    .projectLink {
+      position: absolute;
+      display: block;
+      top: 23.64%; 
+      font-size: 8.25pt;
+      left: 6.5%;
     }
 
     .workAllLink {

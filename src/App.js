@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <Helmet>
         <meta charSet='utf-8'/>
+        <meta name="google-site-verification" content="QYLviYpDHmHDO_2ZPejU7525N4Sg8uJSSzRT4gwIiTQ" />
         <title>Adam Wajahat</title>
         <link rel='canonical' href='https://adamwajahat.github.io/' />
         <meta name='description' content='Now live!'/>
