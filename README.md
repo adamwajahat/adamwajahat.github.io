@@ -1,1 +1,1 @@
-<img src="/src/assets/imgs/adam_signature.png>" width="auto" height="auto"/>
+Portfolio site by Adam Wajahat
