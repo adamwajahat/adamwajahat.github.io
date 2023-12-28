@@ -7,9 +7,17 @@
     justify-content: right;
 }
 
-.activeTab {
-    font-family: 'Eb-Garamond';
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
     font-size: 21px;
+    display: inline-block;
+}
+
+.activeTab{
+    font-family: 'Eb-Garamond';
+    font-size: 22px !important;
 }
 
 .links {
@@ -22,16 +30,17 @@
 
 .links a:hover{
     font-family: 'Eb-Garamond';
-    font-size: 21px;
+    font-size: 22px !important;
 }
 
-
-.navbar a {
-    color: black;
-    text-decoration: none;
-    margin: 20px;
-    font-size: 20px;
-    display: inline-block;
+.links a::before {
+    display: block;
+    content: attr(title);
+    font-family: 'Helvetica-Neue';
+    font-size: 21px;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 .logo {

@@ -6,12 +6,15 @@ import Work from './pages/Work';
 import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import WorkAll from './pages/WorkAll';
+import WorkDisplay from './pages/WorkDisplay';
 
 function App() {
   return (
     <div className="App">
       <Helmet>
         <meta charSet='utf-8'/>
+        <meta name="google-site-verification" content="QYLviYpDHmHDO_2ZPejU7525N4Sg8uJSSzRT4gwIiTQ" />
         <title>Adam Wajahat</title>
         <link rel='canonical' href='https://adamwajahat.github.io/' />
         <meta name='description' content='Now live!'/>
@@ -21,6 +24,8 @@ function App() {
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/work" element={<Work />} />
+              <Route path="/work/all" element={<WorkAll />} />
+              <Route path="/work/:id" element={<WorkDisplay />} />
               <Route path="/about" element={<About />} />
           </Routes>
         <Footer></Footer>

@@ -1,0 +1,22 @@
+.overview {
+    margin: 20px;
+    text-align: left;
+}
+
+.description{
+    text-align: left;
+    margin-left: 120px;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.emphasis {
+    font-family: Eb-Garamond;
+}
+
+.quote{
+    font-family: Eb-Garamond;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
