@@ -1,0 +1,69 @@
+@media (min-width: 375px) {
+    .projectLink-1{
+        position: absolute;
+        display: block;
+        top: 23.7%; 
+        font-size: 9.2pt;
+        left: 6.5%;
+    }
+}
+
+@media (min-width: 390px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 23.75%; 
+        font-size: 9.6pt;
+        left: 6.5%;
+    }
+}
+
+@media (min-width: 414px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 23.75%; 
+        font-size: 10pt;
+        left: 6.5%;
+    }
+}
+
+@media (min-width: 576px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 23.75%; 
+        font-size: 15.1pt;
+        left: 6.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 23.8%; 
+        font-size: 11.5pt;
+        left: 6.5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 23.9%; 
+        font-size: 12.5pt;
+        left: 6.5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 23.64%; 
+        font-size: 8.25pt;
+        left: 6.5%;
+    }
+}
