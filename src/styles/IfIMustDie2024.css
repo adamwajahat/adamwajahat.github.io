@@ -1,0 +1,276 @@
+.projectLink{
+    text-align: left;
+}
+
+.videoDiv-1{
+    top: 1526.2%;
+    position: absolute;
+    z-index: 1;
+}
+
+.videoDiv-2{
+    top: 2662.4%;
+    position: absolute;
+    z-index: 1;
+}
+
+.videoDiv-3{
+    top: 2941.2%;
+    position: absolute;
+    z-index: 1;
+}
+
+.videoDiv-4{
+    top: 3014.5%;
+    position: absolute;
+    z-index: 1;
+}
+
+.videoDiv-5{
+    top: 3476.6%;
+    position: absolute;
+    z-index: 1;
+}
+
+.videoDiv-6{
+    top: 3772%;
+    position: absolute;
+    z-index: 1;
+}
+
+@media (min-width: 375px) {
+    .projectLink-1{
+        position: absolute;
+        display: block;
+        top: 111.7%;
+        font-size: 10.5pt;
+        left: 51.5%;
+    }
+    .projectLink-8{
+        position: absolute;
+        display: block;
+        top: 214.75%;
+        font-size: 9pt;
+        left: 52.5%;
+    }
+
+    .projectLink-9{
+        position: absolute;
+        display: block;
+        top: 2145.1%;
+        font-size: 9.5pt;
+        left: 52.5%;
+    }
+
+    .projectLink-10{
+        position: absolute;
+        display: block;
+        top: 4365%;
+        font-size: 9.5pt;
+        left: 52.5%;
+    }
+}
+
+@media (min-width: 390px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 112%;
+        font-size: 10.5pt;
+        left: 52.5%;
+    }
+
+    .projectLink-8{
+        position: absolute;
+        display: block;
+        top: 214.75%;
+        font-size: 10pt;
+        left: 52.5%;
+    }
+
+    .projectLink-9{
+        position: absolute;
+        display: block;
+        top: 2145.1%;
+        font-size: 10pt;
+        left: 52.5%;
+    }
+
+    .projectLink-10{
+        position: absolute;
+        display: block;
+        top: 4365%;
+        font-size: 9.5pt;
+        left: 52.5%;
+    }
+}
+
+@media (min-width: 414px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 112%;
+        font-size: 10.5pt;
+        left: 52.5%;
+    }
+
+    .projectLink-8{
+        position: absolute;
+        display: block;
+        top: 214.75%;
+        font-size: 10pt;
+        left: 52.5%;
+    }
+
+    .projectLink-9{
+        position: absolute;
+        display: block;
+        top: 2145.1%;
+        font-size: 10pt;
+        left: 52.5%;
+    }
+
+    .projectLink-10{
+        position: absolute;
+        display: block;
+        top: 4365%;
+        font-size: 10.5pt;
+        left: 52.5%;
+    }
+}
+
+@media (min-width: 576px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 112%;
+        font-size: 16.1pt;
+        left: 52.5%;
+    }
+
+    .projectLink-8{
+        position: absolute;
+        display: block;
+        top: 214.75%;
+        font-size: 15pt;
+        left: 52.5%;
+    }
+
+    .projectLink-9{
+        position: absolute;
+        display: block;
+        top: 2145%;
+        font-size: 16pt;
+        left: 52.5%;
+    }
+
+    .projectLink-10{
+        position: absolute;
+        display: block;
+        top: 4365%;
+        font-size: 15.5pt;
+        left: 52.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 112%;
+        font-size: 12pt;
+        left: 52.5%;
+    }
+
+    .projectLink-8{
+        position: absolute;
+        display: block;
+        top: 214.75%;
+        font-size: 12pt;
+        left: 52.5%;
+    }
+    
+    .projectLink-9{
+        position: absolute;
+        display: block;
+        top: 2145%;
+        font-size: 12pt;
+        left: 52.5%;
+    }
+
+    .projectLink-10{
+        position: absolute;
+        display: block;
+        top: 4365%;
+        font-size: 11.5pt;
+        left: 52.5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 112%;
+        font-size: 13.5pt;
+        left: 52.5%;
+    }
+
+    .projectLink-8{
+        position: absolute;
+        display: block;
+        top: 214.75%;
+        font-size: 13pt;
+        left: 52.5%;
+    }
+
+    .projectLink-9{
+        position: absolute;
+        display: block;
+        top: 2145%;
+        font-size: 13pt;
+        left: 52.5%;
+    }
+
+    .projectLink-10{
+        position: absolute;
+        display: block;
+        top: 4365%;
+        font-size: 12.5pt;
+        left: 52.5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projectLink-1 {
+        position: absolute;
+        display: block;
+        top: 112%;
+        font-size: 9pt;
+        left: 52.5%;
+    }
+
+    .projectLink-8{
+        position: absolute;
+        display: block;
+        top: 214.75%;
+        font-size: 8pt;
+        left: 52.5%;
+    }
+
+    .projectLink-9{
+        position: absolute;
+        display: block;
+        top: 2144.8%;
+        font-size: 8.8pt;
+        left: 52.5%;
+    }
+
+    .projectLink-10{
+        position: absolute;
+        display: block;
+        top: 4365%;
+        font-size: 8.5pt;
+        left: 52.5%;
+    }
+}
